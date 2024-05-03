@@ -1,38 +1,95 @@
+/* App.css */
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif; /* Using M PLUS Rounded 1c font */
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f1a; /* Slightly lighter background */
+  color: #e0e0e0; /* Light gray text color */
+}
+
 .App {
-  text-align: center;
+  margin: 20px auto;
+  max-width: 90vw; /* Use viewport width for scalability */
+  padding: 20px;
+  background-color: #1a1a2e; /* Dark blue background for container */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li button {
+  background-color: #b8860b; /* Dark gold-like yellow button color */
   color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem; /* Scalable font size */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Add transition for smoother hover effect */
+  font-family: "M PLUS Rounded 1c", sans-serif; /* Using M PLUS Rounded 1c font */
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li button.bold {
+  font-weight: bold; /* Bold font weight */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li button.medium {
+  font-weight: 500; /* Medium font weight */
+}
+
+nav ul li button.black {
+  font-weight: 900; /* Black (extra bold) font weight */
+}
+
+nav ul li button:hover {
+  background-color: #daa520; /* Slightly lighter gold-like yellow color on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+/* Example styling for page-specific content */
+.content h2 {
+  color: #f1f1f1; /* Light gray heading color */
+  text-align: center; /* Center align the heading */
+  position: relative; /* Make sure symbols are positioned relative to the heading */
+}
+
+.content h2::before,
+.content h2::after {
+  content: ""; /* Empty content for the pseudo-elements */
+  position: absolute; /* Position the symbols absolutely */
+  top: 50%; /* Center the symbols vertically */
+  transform: translateY(-50%); /* Adjust for vertical alignment */
+  height: 2px; /* Height of the symbols */
+  background-color: #cccccc; /* Color of the symbols */
+  width: calc(50% - 100px); /* Width of the symbols */
+}
+
+.content h2::before {
+  left: 0; /* Position the first symbol closer to the text */
+}
+
+.content h2::after {
+  right: 0; /* Position the second symbol closer to the text */
+}
+
+.content p.centered {
+  text-align: center; /* Center align only the paragraph with the "centered" class */
 }
