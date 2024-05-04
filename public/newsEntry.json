@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome!",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXaq4-Mg8rE2s4I84edK7qT1D1R1EHn2pW2RQGiAxadg&s",
+    "description": "Yaaaay my website is live and stuff yipee"
+  },
+  {
+    "id": 2,
+    "title": "I'm still working on HP2 content!",
+    "image": "https://media.moddb.com/images/articles/1/270/269117/hpcos1.jpg",
+    "description": "That's all I have to say for now. Stay tuned for much more specific info!"
+  }
+]

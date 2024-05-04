@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './Home';
@@ -41,6 +39,7 @@ function App() {
 
   return (
     <div className="App">
+
       <nav>
         <ul>
           <li>
@@ -54,6 +53,8 @@ function App() {
           </li>
         </ul>
       </nav>
+    <body>
+    </body>
 
       {renderPage()}
     </div>

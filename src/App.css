@@ -15,6 +15,7 @@ body {
   background-color: #1a1a2e; /* Dark blue background for container */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 20vw;
 }
 
 nav ul {
@@ -71,25 +72,94 @@ nav ul li button:hover {
   position: relative; /* Make sure symbols are positioned relative to the heading */
 }
 
-.content h2::before,
-.content h2::after {
+.content h2.decorated::before,
+.content h2.decorated::after {
   content: ""; /* Empty content for the pseudo-elements */
   position: absolute; /* Position the symbols absolutely */
   top: 50%; /* Center the symbols vertically */
-  transform: translateY(-50%); /* Adjust for vertical alignment */
+  transform: translateY(-40%); /* Adjust for vertical alignment */
   height: 2px; /* Height of the symbols */
   background-color: #cccccc; /* Color of the symbols */
-  width: calc(50% - 100px); /* Width of the symbols */
+  width: calc(40% - 50px); /* Adjusted width to be 50% of the text width minus 50px */
 }
 
-.content h2::before {
+.content h2.decorated::before {
   left: 0; /* Position the first symbol closer to the text */
+  margin-left: 10px; /* Add margin to create space between the text and the line decoration */
 }
 
-.content h2::after {
+.content h2.decorated::after {
   right: 0; /* Position the second symbol closer to the text */
+  margin-right: 10px; /* Add margin to create space between the text and the line decoration */
 }
+
+
 
 .content p.centered {
   text-align: center; /* Center align only the paragraph with the "centered" class */
+}
+
+.news-entry-container {
+  display: flex;
+  justify-content: center;
+  background-color: #b8860b;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.news-entry-container:hover {
+  transform: translateY(-3px);
+}
+
+.news-entry {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.news-entry img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.news-entry p {
+  margin-left: 2%;
+}
+
+.news-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.news-content p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.news-list {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.news-list img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.news-list p {
+  margin-left: 2%;
+}
+
+.news-list:hover {
+  transform: translateX(5px); /* Slide slightly to the right */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly visible white tint */
 }
