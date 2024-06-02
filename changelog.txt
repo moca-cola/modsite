@@ -3,7 +3,7 @@
 
 Known Issues:
 - Sky color abruptly changes color when entering biomes with a unique sky color (swamps, etc.)
-
+- Some modded tree leaves show up as gray on Steam Deck
 
   
   ~~ 1.2.1 ~~
