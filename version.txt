@@ -1,1 +1,1 @@
-Required: Version 1.1.0
+Required: Version 1.2.0
