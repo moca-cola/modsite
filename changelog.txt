@@ -1,0 +1,23 @@
+-- Better Jersey Changelog --
+
+
+Known Issues:
+- Sky color abruptly changes color when entering biomes with a unique sky color (swamps, etc.)
+
+
+  
+  ~~ 1.2.1 ~~
+
+- Added changelog button
+
+  
+  ~~ 1.2.0 ~~
+
+- Added weather expansion mod (adds wind, dynamic clouds, storm severities, sandstorms (in deserts), blizzards (in snow biomes), tornados, cyclones, etc. All weather is non-destructive, but more severe weather may deal damage to the player.
+- Added additional structure mods, some of which are only installed on the server (to save space for the players):
+    - New underground biomes, items, and a couple of mods
+    - A floating castle
+    - Additional dungeons
+    - Other miscellaneous structures
+- Added resource pack that allows for emissive (glowing) ores
+- Minor cleanup on the serverside
