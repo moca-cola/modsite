@@ -9,6 +9,7 @@ Known Issues:
   ~~ 1.2.1 ~~
 
 - Added changelog button
+- Removed Herobrine
 
   
   ~~ 1.2.0 ~~
