@@ -2,7 +2,6 @@
 
 
 Known Issues:
-- Sky color abruptly changes color when entering biomes with a unique sky color (swamps, etc.)
 - Some modded tree leaves show up as gray on Steam Deck
 
 
@@ -12,7 +11,7 @@ Known Issues:
 - Removed magic mods
 - Removed a ton of mods only needed server-side
 - This version is a bit experimental, please let me know of any issues
-
+- Issue "Sky color abruptly changes color when entering biomes with a unique sky color (swamps, etc.)" should be fixed
 
   ~~ 1.2.1 ~~
 
