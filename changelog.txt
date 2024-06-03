@@ -3,8 +3,12 @@
 
 Known Issues:
 - Some modded tree leaves show up as gray on Steam Deck
-- Connected textures are currently not working
-- Chests have a duplicate model when opened
+
+
+  ~~ 1.2.3 ~~
+
+- Issue "Connected textures are currently not working" has been fixed
+- Issue "Chests have a duplicate model when opened" has been fixed
 
 
   ~~ 1.2.2 ~~
@@ -14,6 +18,7 @@ Known Issues:
 - Removed a ton of mods only needed server-side
 - This version is a bit experimental, please let me know of any issues
 - Issue "Sky color abruptly changes color when entering biomes with a unique sky color (swamps, etc.)" should be fixed
+
 
   ~~ 1.2.1 ~~
 
