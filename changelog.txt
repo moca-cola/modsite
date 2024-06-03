@@ -5,7 +5,7 @@ Known Issues:
 - Some modded tree leaves show up as gray on Steam Deck
 
 
-  ~~ 1.2.3 ~~
+  ~~ 1.2.3 ~~ (Not yet released)
 
 - Issue "Connected textures are currently not working" has been fixed
 - Issue "Chests have a duplicate model when opened" has been fixed
