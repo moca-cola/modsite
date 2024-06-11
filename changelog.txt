@@ -7,6 +7,7 @@
 - Removed unnecessary mod (made obsolete after other mod's update)
 - Issue "Some modded tree leaves show up as gray on Steam Deck" has been fixed
 
+
   ~~ 1.2.3 ~~
 
 - Issue "Connected textures are currently not working" has been fixed
