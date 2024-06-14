@@ -1,5 +1,16 @@
 -- Better Jersey Changelog --
 
+Known Issues:
+- Rare and random crashes which lead to abrupt blank screens
+
+
+  ~~ 1.3.0 ~~
+
+- Updated all mods to latest versions
+- The update button now downloads only outdated packs
+- The loading screen text is now a consistent size
+- Other menu additions
+
 
   ~~ 1.2.4 ~~
 
