@@ -1,8 +1,27 @@
--- Better Jersey Changelog --
+-- Best Jersey Changelog --
 
-Known Issues:
-- Rare and random crashes which lead to abrupt blank screens
 
+  ~~ 2.0.1 ~~
+
+- Fixed glitchy dynamic torch lights
+- Fixed veinminer mod not working on modded pickaxes
+
+
+  ~~ 2.0.0 ~~
+
+- Cleaned up modpack, removing unnecessary mods or unused mods, around 15 mods removed
+- Potential performance improvements depending on the system
+- Game can potentially load up to 15% faster
+- New Aether content, including new items and biomes
+- Minor additions for immersion, specifically improved thunder sounds, visual ambience for caves, and additional sound effects for blocks
+- New menus additions, including an all-new default Best Jersey theme, and a credits sequence on the options menu
+
+
+
+
+
+
+LEGACY (Better Jersey)
 
   ~~ 1.3.0 ~~
 
